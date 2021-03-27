@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AddpostComponent } from './addpost.component';
-import {AddpostRoutingModule} from './addpost.routing.module';
+import { ReactiveFormsModule } from '@angular/forms';
+import {AddpostRoutingModule} from './addpost-routing.module';
 
 
 
@@ -12,7 +13,8 @@ import {AddpostRoutingModule} from './addpost.routing.module';
   ],
   imports: [
     CommonModule,
-    AddpostRoutingModule
+    ReactiveFormsModule,
+   AddpostRoutingModule
   ]
 })
 export class AddPostModule { }

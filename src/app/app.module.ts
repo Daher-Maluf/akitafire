@@ -7,16 +7,12 @@ import { NG_ENTITY_SERVICE_CONFIG } from '@datorama/akita-ng-entity-service';
 import { AkitaNgDevtools } from '@datorama/akita-ngdevtools';
 import { AkitaNgRouterStoreModule } from '@datorama/akita-ng-router-store';
 import { environment } from '../environments/environment';
-import { MainComponent } from './main/main.component';
-import { PostComponent } from './post/post.component';
-import { AddpostComponent } from './addpost/addpost.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
-    PostComponent,
-    AddpostComponent
+    
   ],
   imports: [
     BrowserModule,
